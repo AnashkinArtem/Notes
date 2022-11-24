@@ -1,0 +1,28 @@
+.tag{
+    position: relative;
+    width: max-content;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    color: black;    
+    &:hover{
+        cursor: pointer;
+    } 
+    .tag__title{
+        font-size: 16px;
+    }
+    svg{
+        position: absolute;
+        top: -12px;
+        right: -12px;
+        color: red;
+        &:hover{
+            cursor: pointer;
+            opacity: .5;
+        }
+    }    
+}  
+
+   
+ 
